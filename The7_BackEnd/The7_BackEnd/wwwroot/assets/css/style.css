@@ -1,0 +1,349 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  list-style-type: none;
+}
+html {
+  font-size: 10px;
+}
+
+/* Header start */
+.logo span {
+  font-size: 3.6rem;
+  color: #fff;
+}
+
+nav {
+  padding: 2.45rem 0;
+}
+.nav-list {
+  font-size: 1.6rem;
+}
+
+.nav-list li {
+  padding-left: 2rem;
+  font-size: 1.6rem;
+}
+.nav-list li a {
+  color: #fff;
+  transition: all 0.3s linear;
+}
+
+.nav-list li a:hover {
+  color: #16a085;
+}
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+/* Header end */
+
+/* Main start */
+
+#intro {
+  background-image: url(../images/home.jpg);
+  background-attachment: fixed;
+}
+.intro-container {
+  padding: 14.5rem 0 25rem;
+}
+.intro-title {
+  margin-top: 7rem;
+  margin-bottom: 4rem;
+  font-size: 3.8rem;
+  color: white;
+}
+.intro-desc {
+  font-size: 1.4rem;
+  width: 65%;
+  font-size: 1.4rem;
+  color: #fff;
+  font-weight: 400;
+}
+
+.into-button {
+  border: 0.2rem solid #fff;
+  padding: 0.8rem 1.6rem;
+  color: #fff;
+  font-size: 1.4rem;
+  border-radius: 1.8rem;
+  transition: all 0.3s linear;
+  margin-top: 2rem;
+}
+.into-button:hover {
+  background-color: #16a085;
+  color: #fff;
+  border-color: #16a085;
+}
+
+/* Main end */
+
+#services {
+  padding-top: 16rem;
+}
+
+.services-title h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  color: #333;
+  padding-bottom: 12rem;
+}
+
+.card-icon {
+  font-size: 3.6rem;
+  width: 35%;
+  padding: 2.5rem;
+  border: 2px solid #333;
+  border-radius: 50%;
+  transition: all 0.3s linear;
+}
+
+.card-icon:hover {
+  transform: scale(1.3);
+}
+
+.service-card-title {
+  padding: 5rem 0;
+  font-size: 3rem;
+}
+.service-card-text {
+  font-size: 1.6rem;
+  padding-bottom: 2rem;
+  color: #7b7977;
+}
+.service-card-group {
+  border: none;
+}
+.service-button {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+/* !slider start */
+
+/* !slider end */
+
+#blog {
+  padding: 15rem 0;
+}
+#blog h3 {
+  font-size: 4.8rem;
+  font-weight: 400;
+}
+
+.blog-card-title {
+  color: #1abcb6;
+  font-size: 2.4rem;
+  padding: 1.6rem;
+}
+/* .blog-card-text  {
+    /* color: #1ABCB6;
+    font-size: 1.2rem;
+    padding-bottom: 2.5rem;
+    font-size: 1.8rem !important; */
+
+*/ .blog-card-text p {
+  font-size: 1.4rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.blog-card-button {
+  font-size: 1.4rem;
+  background-color: #16a085;
+  padding: 1.2rem 2.5rem;
+  border-radius: 3rem;
+}
+
+.pricing-title h3 {
+  font-size: 3.6rem;
+  padding-bottom: 10rem;
+}
+.pricing-card-title {
+  font-size: 2.6rem;
+  font-weight: 400;
+  color: #16a085;
+  padding: 2rem 0 3.5rem 0;
+}
+.payment {
+  font-size: 1.4rem;
+  padding: 3rem;
+  border: 0.2rem solid #16a085;
+  border-radius: 50%;
+  color: #16a085;
+}
+.pricing-card-item {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: gray;
+  font-size: 1.6rem;
+}
+.pricing-button {
+  font-size: 1.4rem;
+  padding: 1.2rem 6.5rem;
+  border-radius: 3rem;
+}
+
+/* ! */
+.pricing-title2 h3 {
+  font-size: 3.6rem;
+}
+.pricing-card-title2 {
+  font-size: 2.6rem;
+  font-weight: 400;
+  color: #333;
+  padding: 2rem 0 3.5rem 0;
+}
+.payment2 {
+  font-size: 1.4rem;
+  padding: 3rem;
+  border: 0.2rem solid #7b7977;
+  border-radius: 50%;
+  color: #7b7977;
+}
+.pricing-card-item2 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: gray;
+  font-size: 1.6rem;
+}
+.pricing-button2 {
+  font-size: 1.4rem;
+  padding: 1.2rem 6.5rem;
+  border-radius: 3rem;
+}
+
+#team {
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+}
+.team-title h2 {
+  font-size: 4rem;
+}
+
+.member-name {
+  font-size: 2.4rem;
+}
+
+.member-position {
+  font-size: 1.6rem;
+  color: #16a085;
+}
+.contact-title {
+  font-size: 4rem;
+}
+
+/* !form start */
+.form-name {
+  padding: 2rem 0;
+}
+.form-email {
+  padding: 2rem 0;
+}
+.form-subject {
+  padding: 2rem 0;
+}
+.form-button {
+  font-size: 1.6rem;
+  border-radius: 0.8rem;
+}
+.form-icon {
+  font-size: 2.5rem;
+  padding: 0.3rem 1.5rem;
+  color: #16a085;
+  border-right: 2px solid #7b7977;
+}
+.address-text h4 {
+  font-size: 2rem;
+  
+}
+.address-text p {
+  font-size: 1.4rem;
+}
+
+/* ---- */
+.worktime-text h4 {
+  font-size: 2rem;
+}
+.worktime-text p {
+  font-size: 1.4rem;
+}
+/* ---- */
+.phone-text h4 {
+    font-size: 2rem;
+  }
+  .worktime-text p {
+    font-size: 1.4rem;
+  }
+/* !form end */
+
+
+/* Footer start */
+
+footer{
+    background-color: #2C2D31;
+    color: #fff;
+    padding-top: 10rem;
+}
+.footer-titles{
+    font-size: 2.8rem;
+    font-weight: 400;
+    padding-bottom: 2.5rem;
+
+}
+footer p{
+    font-size: 1.6rem;
+}
+footer a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 1.4rem;
+    padding-left: 1rem;
+    transition: all 0.2s linear;
+    
+}
+footer a:hover{
+    color: #16a085;
+    
+}
+footer li{
+    padding-bottom: 1rem;
+}
+footer i{
+    color: #1abcb6;
+}
+.image-box img{
+    width: 100%;
+    border-radius: 0.8rem;
+}
+
+.socials{
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.socials li{
+    padding-left: 2.5rem;
+    padding-right: 4rem;
+    
+}
+.socials a{
+    font-size: 2.5rem;
+    
+}
+.socials i{
+    color: #fff;
+    transition: all 0.2s linear;
+}
+.socials i:hover{
+    color: #16a085;
+}
+.copyright,.copyright a{
+    font-size: 1.6rem;
+    padding-bottom: 5rem ;
+}
+/* Footer  */
